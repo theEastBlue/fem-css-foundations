@@ -1,0 +1,14 @@
+body {
+    background-color: #FF7B54;
+    color: #fff;
+    font-family: "Inter", system-ui;;
+    font-style: bold;
+    font-weight: 800;
+    font-size: 128px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 20px;
+}
