@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #FF7B54;
+    --color-text-on-primary: #fff;
+    --color-secondary: #fff;
+    --color-text-on-secondary: #FF7B54;
+    --font-family: "Inter", sans-serif;
+
+}
+
+body {
+    background-color: var(--color-primary);
+    color: var(--color-text-on-primary);
+    font-family: var(--font-family);
+    font-size: 128  px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    font-size: 20px;
+}
