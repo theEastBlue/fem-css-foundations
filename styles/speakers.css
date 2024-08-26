@@ -39,3 +39,24 @@
     font-size: 20px;
     color: black;
 }
+
+.menu-close g path {
+    fill: var(--color-primary);
+}
+
+@media(max-width: 1000px) {
+    .speakers__wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 840px) {
+    .nav {
+        background-color: var(--color-secondary);
+        color: var(--color-text-on-secondary);
+    }
+
+    .body--no-scroll {
+        overflow: hidden;
+    }
+}
