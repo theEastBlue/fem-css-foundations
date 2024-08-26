@@ -1,15 +1,24 @@
 @import './base.css';
-nav {
-    display: flex;
-    justify-content: flex-end;
-}
-nav ul {
-    display: inherit;
-    flex-direction: row;
-    justify-content: space-evenly;
+
+.home .main__heading {
+    font-size: 128px;
+    font-weight: bold;
 }
 
-nav ul li {
-    list-style-type: none;
-    margin-right: 20px;
+.home .main__sub-heading {
+    font-size: 40px;
+}
+
+.button--primary {
+    color: var(--color-button-primary-text);
+    background-color: var(--color-button-primary-bg);
+}
+
+.button--secondary {
+    color: var(--color-button-secondary-text);
+    background-color: var(--color-button-secondary-bg);
+}
+
+.button__icon {
+    vertical-align: middle;
 }
