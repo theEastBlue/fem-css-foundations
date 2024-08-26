@@ -19,6 +19,9 @@
     background-color: var(--color-button-secondary-bg);
 }
 
+.home .menu path {
+    fill: var(--color-text-on-primary);
+}
 .button__icon {
     vertical-align: middle;
 }
